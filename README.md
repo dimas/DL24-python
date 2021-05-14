@@ -4,7 +4,7 @@ Python library to interface with DL24-style electronic loads.
 # History
 I needed to build a dicharge curve for Lipo cell. The DL24 I had did not have anything for Linux (or at least I did not find it) and I have very little desire installing some unknown binaries to a Windows machine or my phone.
 
-On the [EEVblog forum](https://www.eevblog.com/forum/testgear/atorch-dl24-electronic-load-software/msg3219530/#msg3219530) I found mention of a Github repository with software that was created for a previous model by reverse-engineering the ]protocol](https://github.com/misdoro/Electronic_load_px100/blob/master/protocol_PX-100_2_70.md).
+On the [EEVblog forum](https://www.eevblog.com/forum/testgear/atorch-dl24-electronic-load-software/msg3219530/#msg3219530) I found mention of a Github repository with software that was created for a previous model by reverse-engineering the [protocol](https://github.com/misdoro/Electronic_load_px100/blob/master/protocol_PX-100_2_70.md).
 
 That software not really work for me out of the box out of the box but after some tweaking I managed to run it. It was a bit unstable because my DL24 was sending some unsolicited data every second it was mixind with command responses and the software was not happy.
 
